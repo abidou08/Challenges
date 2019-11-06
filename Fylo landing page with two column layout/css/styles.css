@@ -1,0 +1,218 @@
+h1 {
+  font-size: 36px;
+}
+
+/* HEADER SECTION */
+#header {
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-link {
+  color: hsl(243, 87%, 12%);
+  margin: auto 1rem;
+}
+
+/* INTRO SECTION */
+#intro {
+  padding: 5%;
+}
+
+#intro img {
+  width: 80%;
+}
+
+#intro h1 {
+  color: hsl(243, 87%, 12%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  width: fit-content;
+}
+
+#intro p {
+  color: hsl(243, 87%, 12%);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.intro-text {
+  width: 85%;
+}
+
+.get-started-button {
+  margin-left: 5%;
+  width: 180px;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+  margin: 5% auto;
+  padding: 5%;
+}
+
+#testimonials h1 {
+  color: hsl(243, 87%, 12%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  width: max-content;
+  margin-bottom: 3%;
+}
+
+.testimonial-paragraph {
+  width: 80%;
+}
+
+.testimonial-link {
+  color: hsl(170, 45%, 43%);
+  text-decoration: underline;
+}
+
+.testimonials-review {
+  width: 60%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 2px -2px 25px lightgrey;
+  margin-top: 10%;
+  overflow: hidden;
+  padding: 4%;
+}
+
+.testimonials-review p {
+  font-size: 13px;
+  line-height: 2;
+}
+
+.about-reviewer {
+  margin-top: 10%;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 50px;
+}
+
+.about-reviewer h6 {
+  font-size: 13px;
+}
+
+.illustration2 {
+  width: 75%;
+}
+
+/* CALL TO ACTION SECTION */
+#cta {
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  padding: 15% 5%;
+}
+
+#cta h2 {
+  font-weight: 700;
+  margin-bottom: 4%;
+}
+
+#cta p {
+  width: 80%;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+#cta input {
+  border: 0;
+  border-radius: 3px;
+  padding: 2%;
+  margin-bottom: 2%;
+  width: 80%;
+}
+
+#cta button {
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 2%;
+  width: 35%;
+}
+
+/* BOTTOM SECTION */
+#bottom {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  padding: 5%;
+}
+
+.contact-info {
+  margin-bottom: 15%;
+}
+
+.bottom-link {
+  margin-bottom: 15%;
+}
+
+.bottom-link a {
+  display: block;
+  color: inherit;
+  margin-bottom: 5%;
+}
+
+.logo-bottom {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(319deg) brightness(350%) contrast(101%);
+  margin-bottom: 5%;
+}
+
+.social-icon {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  margin-right: 5%;
+  padding: 5px;
+}
+
+/* FOOTER SECTION */
+footer{
+  text-align: center;
+}
+
+
+/* MOBILE VIEW SECTION */
+@media screen and (max-width:500px) {
+  #intro, #testimonials, #cta, .social-icon-1 {
+    text-align: center;
+  }
+
+  #cta input, #cta button, #cta p, .intro-text, .get-started-button {
+    width: 100%;
+  }
+
+  .order-0 {
+    order: 1;
+  }
+
+  .order-1 {
+    order: 0;
+  }
+
+  /* HEADER SECTION */
+  .navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  /* INTRO SECTION */
+  .get-started-button {
+    margin: 3% auto;
+  }
+
+  /* TESTIMONIALS SECTION */
+  #testimonials h1, .testimonial-paragraph, .testimonials-review {
+    width: auto;
+  }
+
+  .testimonial-paragraph, .testimonials-review {
+    text-align: left;
+  }
+}
