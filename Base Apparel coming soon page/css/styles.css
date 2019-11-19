@@ -1,0 +1,197 @@
+body {
+  background-image: url(../images/bg-pattern-desktop.svg);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-left-side {
+  margin: 2% 3%;
+}
+
+.img-logo {
+  margin-bottom: 15%;
+}
+
+.cls-text {
+  animation: left-side-animation 1s;
+  -webkit-animation: left-side-animation 1s;
+}
+
+h1 {
+  color: hsl(0, 6%, 24%);
+  font-size: 4rem;
+  line-height: 1.2;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+span {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+p.about-service {
+  color: hsl(0, 36%, 70%);
+  font-size: 16px;
+  line-height: 2;
+  width: 70%;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border: 1px solid hsl(0, 36%, 70%);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 50px;
+  margin-top: 5%;
+  width: 60%;
+}
+
+input {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  flex-grow: 2;
+  border: none;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: 5%;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  width: 25%;
+}
+
+.icon-error {
+  height: 20px;
+  width: 20px;
+  margin: auto 3%;
+}
+
+.warning-message {
+  color: hsl(0, 93%, 68%);
+  font-size: 13px;
+  margin-left: 2%;
+}
+
+.warning {
+  visibility: hidden;
+}
+
+footer {
+  text-align: center;
+}
+
+.img-hero {
+  animation: image-hero-animation 1s;
+  -webkit-animation: image-hero-animation 1s;
+}
+
+/* Adding Some loading animation  */
+@-webkit-keyframes image-hero-animation {
+  0% {
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes image-hero-animation {
+  0% {
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes left-side-animation {
+  0% {
+    transform: translateX(-500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes left-side-animation {
+  0% {
+    transform: translateX(-500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+/* Mobile design view */
+@media screen and (max-width:500px) {
+  body {
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .column-left-side {
+    order: 1;
+  }
+
+  .column-right-side {
+    order: 0;
+  }
+
+  .img-logo {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  .img-hero {
+    content:url("../images/hero-mobile.jpg");
+    margin-top: 20%;
+    width: 100%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  p.about-service {
+    width: 75%;
+    margin: 5% auto;
+  }
+
+  .subscribe-form {
+    margin: auto;
+    width: 80%;
+  }
+}
