@@ -23,4 +23,5 @@ Thanks for coming here, as you can see in this repository all my practice projec
 
 **Live Preview My Solutions (HTML+CSS+JS):**
 * [Base Apparel coming soon page](https://abidou08.github.io/challenges/Base%20Apparel%20coming%20soon%20page/index.html)
+* [Ping single column coming soon page](https://abidou08.github.io/challenges/Ping%20single%20column%20coming%20soon%20page/index.html)
 
