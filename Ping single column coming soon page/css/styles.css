@@ -1,0 +1,134 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+}
+
+/* Top section part */
+h1 {
+  font-size: 40px;
+  margin-top: 3%;
+}
+
+span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+}
+
+/* Subscription form part */
+.form-container{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 40%;
+}
+.form-subscribe {
+  width:70%;
+}
+
+.email-input, .button-notify {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.email-input {
+  border: 1px solid hsl(223, 100%, 88%);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-size: 14px;
+  padding: 2.5% 5%;
+  width: 80%;
+}
+
+.button-notify {
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  height: 40px;
+  width: 30%
+}
+
+.button-notify:hover{
+  background-color: hsl(223, 100%, 88%);
+}
+
+.warning-text{
+  color: hsl(354, 100%, 66%);
+  font-size: 13px;
+  font-weight: 300;
+  margin-left: 10%;
+  text-align: left;
+  visibility: hidden;
+}
+
+/* Image illustration part */
+.illustration-image {
+  margin: 3% auto 5% auto;
+  width: 50%
+}
+
+/* Social icons part */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  border: 1px solid hsl(0, 0%, 59%, 0.4);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1%;
+}
+
+li:hover {
+  background-color: hsl(223, 87%, 63%);
+}
+
+.social-link {
+  color: hsl(223, 87%, 63%);
+  display: table-cell;
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+}
+
+.social-link:hover {
+  color: #fff;
+}
+
+/* Copyright text */
+.copyright-text{
+  color: hsl(0, 0%, 59%);
+}
+
+
+/* MOBILE VIEW PART */
+@media screen and (max-width:500px){
+
+  h1 {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+  .form-container{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-subscribe {
+    width:100%;
+  }
+
+   .button-notify {
+    margin: 5% auto;
+  }
+
+  .illustration-image, .button-notify {
+    width: 90%;
+  }
+}
