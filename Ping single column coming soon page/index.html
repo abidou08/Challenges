@@ -18,12 +18,12 @@
   <img src="images/logo.svg" alt="logo_image">
   <h1><span>We are launching</span> soon!</h1>
   <p>Subscribe and get notified</p>
-  <form class="form-container" >
+  <form class="form-container" onsubmit="subscribeButton()">
     <div class="form-subscribe">
       <input class="email-input" type="text" name="email" value="" placeholder="Your email address...">
       <p class="warning-text"><em></em></p>
     </div>
-      <button class="button-notify" type="button" name="button" onclick="subscribeButton()">Notify Me</button>
+      <button class="button-notify" type="submit" name="button">Notify Me</button>
   </form>
 
   <img class="illustration-image" src="images/illustration-dashboard.png" alt="illustration-dashboard">
