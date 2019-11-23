@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <!-- Stylesheet File -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="left-side-text">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="right-side-form">
+        <button class="blue-btn" type="button" name="button"><span>Try it free 7 days </span>then $20/mo. thereafter</button>
+        <form class="signup-form">
+          <input class="input-text" type="text" name="first_name" id="first_name" value="" placeholder="First Name">
+          <p class="warning-text" id="warning-first_name"></p>
+
+          <input class="input-text" type="text" name="last_name" id="last_name" value="" placeholder="Last Name">
+          <p class="warning-text" id="warning-last_name"></p>
+
+          <input class="input-text" type="text" name="email" id="email" value="" placeholder="Email Address">
+          <p class="warning-text" id="warning-email"></p>
+
+          <input class="input-text" type="password" name="password" id="password" value="" placeholder="Password">
+          <p class="warning-text" id="warning-password"></p>
+
+          <input class="submit-btn" type="submit" name="submit" value="Claim your free trial" onclick="checkFormData()">
+          <p class="agree-text">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+<footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/abidou08" target="_blank">ABDELATIF</a>.
+    </p>
+  </footer>
+</html>
