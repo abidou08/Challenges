@@ -115,6 +115,7 @@ footer {
 /* MOBILE VIEW PART */
 @media screen and (max-width:500px) {
   body {
+    background: hsl(0, 100%, 74%) url(../images/bg-intro-mobile.png);
     text-align: center;
   }
 
