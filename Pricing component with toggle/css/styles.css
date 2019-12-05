@@ -100,6 +100,7 @@ button{
 }
 
 .white-btn{
+  background: #fff;
   color: hsl(237, 63%, 64%);
 }
 .white-btn:hover{
