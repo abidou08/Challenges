@@ -4,9 +4,11 @@ $(".switch").on("click", changeText);
 // Detect "TAB" key press in keyboard
 $("body").on("keydown", function(e){
   if (e.keyCode === 9 && $("input")[0].checked===true){
+    $(".switch").focus();
     $("input")[0].checked = false;
     changeText();
   }else if (e.keyCode === 9 && $("input")[0].checked === false){
+    $(".switch").focus();
     $("input")[0].checked = true;
     changeText();
   }
