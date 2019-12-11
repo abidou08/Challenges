@@ -1,0 +1,285 @@
+body {
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* TOP SECTION */
+#top {
+  margin: 4% auto;
+  width: 40%;
+}
+
+h1 {
+  font-size: 32px;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+button {
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 600;
+  height: 50px;
+  margin: 3% 2%;
+  width: 30%;
+}
+
+.btn-ios {
+  background: hsl(171, 66%, 44%);
+}
+
+.btn-mac {
+  background: hsl(233, 100%, 69%);
+}
+
+/* KEEP TRACK OF YOUR SNIPPETS */
+#keep-track {
+  margin: 5% auto;
+}
+
+h2 {
+  color: hsl(210, 10%, 33%);
+  font-size: 28px;
+}
+
+.keep-track-para {
+  margin: auto;
+  width: 50%;
+}
+
+.keep-track-01 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 4% auto;
+}
+
+.keep-track-img {
+  position: relative;
+  right: 50px;
+}
+
+.keep-track-text {
+  text-align: left;
+}
+
+h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+.keep-track-text p {
+  margin-bottom: 10%;
+  width: 60%
+}
+
+/* ACCESS CLIPBOARD ANYWHERE */
+#access-clipboard {
+  margin: 5% auto;
+}
+
+#access-clipboard p {
+  margin: auto auto 5%;
+  width: 45%;
+}
+
+/* SUPERCHARGE YOUR WORKFLOW */
+#supercharge {
+  margin: 5% auto;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5% auto;
+}
+
+.step {
+  flex-basis: 150px;
+  flex-grow: 1;
+}
+
+.step-img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+/* PARTNERS LOGO */
+#partners {
+  margin: 10% auto;
+}
+
+#partners img {
+  margin: auto 4%;
+}
+
+/* CALL TO ACTION (DOWNLOAD) */
+#cta {
+  margin: 5% auto;
+  width: 50%;
+}
+
+/* BOTTOM SECTION */
+#bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: hsl(210, 10%, 33%, 0.1);
+  text-align: left;
+  padding: 2% 5%;
+}
+
+.logo-img {
+  height: 50px;
+  width: 50px;
+}
+
+.div-logo-img {
+  width: 20%;
+}
+
+.bottom-links {
+  width: 80%;
+}
+
+.bottom-links a {
+  color: hsl(201, 11%, 66%);
+  text-decoration: none;
+}
+
+.bottom-links a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+ul {
+  padding-left: 0;
+  display: inline-block;
+  margin: auto 5%;
+  height: 50px;
+  vertical-align: middle;
+}
+
+li {
+  margin-bottom: 15%;
+  list-style-type: none;
+}
+
+.social-links {
+  width: 30%;
+}
+
+.social-icon {
+  margin: auto 5%;
+}
+
+/* MOBILE VIEW PART */
+@media screen and (max-width:500px) {
+body{
+  background-image: url(../images/bg-header-mobile.png);
+  background-size: contain;
+}
+
+#top, #keep-track, #access-clipboard, #supercharge, #partners, #cta, #bottom{
+  margin: 5rem auto;
+}
+  /* TOP SECTION */
+  #top {
+    width: 70%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  /* KEEP TRACK OF YOUR SNIPPETS */
+  .keep-track-para {
+    width: 70%;
+  }
+
+  .keep-track-01 {
+    flex-direction: column;
+  }
+
+  .keep-track-img {
+    position: static;
+    width: 100%;
+  }
+
+  .keep-track-text {
+    text-align: center;
+  }
+
+  .keep-track-text p {
+    margin: auto auto 10%;
+    width: 70%;
+  }
+
+  /* ACCESS CLIPBOARD ANYWHERE */
+  #access-clipboard p {
+    width: 65%;
+  }
+
+  #access-clipboard img {
+    width: 100%;
+  }
+
+  /* SUPERCHARGE YOUR WORKFLOW */
+  .steps-container {
+    flex-direction: column;
+  }
+
+  .step {
+    margin: 5% auto;
+    width: 70%;
+  }
+
+  /* PARTNERS LOGO */
+  #partners img {
+    display: flex;
+    flex-direction: column;
+    margin: 15% auto;
+  }
+
+  /* CALL TO ACTION (DOWNLOAD) */
+  #cta {
+    width: 70%;
+  }
+
+  /* BOTTOM SECTION */
+  #bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .div-logo-img {
+    margin: 5% auto;
+    width: 100%;
+  }
+
+  .bottom-links {
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    width: 100%;
+  }
+
+  ul {
+    height: auto;
+  }
+
+  li {
+    margin-bottom: 5%;
+  }
+
+  .social-links {
+    width: 100%;
+  }
+}
