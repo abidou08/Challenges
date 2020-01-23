@@ -1,0 +1,111 @@
+@media screen and (max-width:500px) {
+  body {
+    text-align: center;
+  }
+
+  /* INTRO SECTION */
+  #intro h1 {
+    margin: 15% auto 5%;
+    width: 90%;
+  }
+
+  #intro p {
+    margin: 5% auto;
+    width: 65%;
+  }
+
+  #intro hr {
+    visibility: hidden;
+  }
+
+  .intro-flex-container {
+    flex-direction: column;
+  }
+
+  .div-intro-text {
+    background-color: hsl(256, 26%, 20%);
+    order: 2;
+  }
+
+  .div-intro-image {
+    order: 1;
+  }
+
+  .intro-image {
+    width: 100%;
+  }
+
+  .intro-plans-btn {
+    margin-bottom: 10%;
+  }
+
+  .bg-pattern-intro-left-desktop {
+    background: url(../images/bg-pattern-intro-left-mobile.svg) left no-repeat;
+    top: 370px;
+  }
+
+  .bg-pattern-intro-right-desktop {
+    background: url(../images/bg-pattern-intro-right-mobile.svg) bottom right no-repeat;
+    top: 700px;
+    width: 35%;
+  }
+
+  .intro-flex-container, .div-intro-text, .div-intro-image {
+    margin: 0;
+  }
+
+  /* BENEFITS SECTION */
+  #benefits {
+    margin-top: 120%;
+    text-align: center;
+  }
+
+  #benefits hr {
+    margin-left: auto;
+  }
+
+  #benefits h1 {
+    font-size: 3.5rem;
+  }
+
+  .benefits-flex-container {
+    flex-direction: column;
+  }
+
+  .first-benefits, .second-benefits, .third-benefits {
+    margin-bottom: 10%;
+  }
+
+  /* HOW WE WORK SECTION */
+  .howitwork-flex-container{
+    flex-direction: column;
+    line-height: 2.5rem;
+    padding: 10% 7%;
+  }
+
+  .bg-pattern-how-we-work-desktop{
+    background: url(../images/bg-pattern-how-we-work-mobile.svg) top right no-repeat;
+    opacity: 0.8;
+  }
+
+  /* BOTTOM SECTION */
+  .div-flex-container-01{
+    flex-direction: column;
+  }
+
+  .bg-pattern-footer-desktop{
+    background: url(../images/bg-pattern-footer-mobile.svg) no-repeat;
+  }
+
+  .social-icons{
+    margin-top: 1.5rem;
+  }
+
+  #bottom hr{
+    margin: 8% auto;
+  }
+
+  .div-flex-container-02{
+    flex-direction: column;
+  }
+}
