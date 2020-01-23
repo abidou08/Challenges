@@ -1,0 +1,73 @@
+#intro{
+  background-color: hsl(256, 26%, 20%);
+  color: #fff;
+  height: 600px;
+  position: relative;
+}
+
+.intro-flex-container{
+  display: flex;
+  flex-direction: row;
+  margin:2% 10%;
+}
+
+.div-intro-text, .div-intro-image{
+  margin-top: 10%;
+  flex-basis: 50%;
+}
+
+hr{
+  color: hsl(0, 0%, 98%);
+  margin-left: 0;
+  width: 8rem;
+}
+
+#intro h1{
+  font-family: 'DM Serif Display', serif;
+  font-size: 3.8rem;
+  font-weight: 400;
+  line-height: 4rem;
+  width: 80%;
+}
+
+#intro p{
+  line-height: 1.7rem;
+  width: 90%;
+}
+
+.intro-plans-btn{
+  background-color: inherit;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.intro-plans-btn:hover{
+  background-color: #fff;
+  color: hsl(256, 26%, 20%);
+  cursor: pointer;
+}
+
+.bg-pattern-intro-left-desktop{
+  background: url(../images/bg-pattern-intro-left-desktop.svg) no-repeat;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top:500px;
+  left:0;
+}
+
+.bg-pattern-intro-right-desktop{
+  background: url(../images/bg-pattern-intro-right-desktop.svg) right top no-repeat;
+  background-size: contain;
+  height: 85%;
+  width: 50%;
+  position:absolute;
+  top:0;
+  right:0;
+}
