@@ -1,0 +1,65 @@
+#faq{
+  margin: 3% 10%;
+}
+
+#faq h2{
+  color: hsl(229, 31%, 21%);
+}
+
+#faq p{
+  color: hsl(229, 8%, 60%);
+}
+
+.div-faq-txt{
+  text-align: center;
+  margin: auto;
+  width: 45%;
+}
+
+.div-faq-questions{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin: 5% auto;
+  width: 45%;
+}
+
+.question-container{
+  border-top: 1px solid rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-container{
+  cursor: pointer;
+}
+
+.questions{
+  color: hsl(229, 31%, 21%);
+  font-weight: 500;
+}
+
+.questions:hover{
+  color: hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+
+.answers{
+  display: none;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.answers.showans{
+  display: block;
+}
+
+.icon-arrow.rotate{
+  transition: transform 1s;
+  transform: rotateZ(180deg);
+}
+
+.icon-arrow-path.stroke{
+  stroke: hsl(0, 94%, 66%);
+}

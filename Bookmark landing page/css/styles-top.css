@@ -1,0 +1,68 @@
+#top{
+  align-items: center;
+  display: flex;
+  margin: 5% auto 5% 10%;
+}
+
+#top h1{
+  color: hsl(229, 31%, 21%);
+  font-size: 2.7rem;
+  margin-top: 0;
+}
+
+#top p{
+  color: hsl(229, 8%, 60%);
+  width: 80%;
+}
+
+.div-top-text, .div-top-img{
+  flex-basis: 50%;
+}
+
+.get{
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  padding: 2%;
+  margin-right: 2%;
+  width: 150px;
+}
+
+.top-btn-download-chrome{
+  background-color: hsl(231, 69%, 60%);
+  color: #fff;
+}
+
+.top-btn-download-chrome:hover{
+  border: 1px solid hsl(231, 69%, 60%);
+  background-color: #fff;
+  color: hsl(231, 69%, 60%);
+  cursor: pointer;
+}
+
+.top-btn-download-firefox{
+  color: hsl(229, 31%, 21%);
+}
+
+.top-btn-download-firefox:hover{
+  border: 1px solid hsl(229, 31%, 21%);
+  cursor: pointer;
+}
+
+.div-top-img{
+  position: relative;
+}
+
+.div-top-img::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+  height: 75%;
+  background-color: hsl(231, 69%, 60%);
+  z-index: -2;
+  border-radius: 15rem 0 0 15rem;
+}

@@ -1,0 +1,89 @@
+#download{
+  margin: 15% 10% 5%;
+}
+
+#download h2, #download h3{
+  color: hsl(229, 31%, 21%);
+}
+
+#download p{
+  color: hsl(229, 8%, 60%);
+}
+
+.div-download-txt{
+  text-align: center;
+  margin: auto;
+  width: 45%;
+}
+
+.div-download-extension{
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+  margin: 5% auto;
+  position:relative;
+  width: 80%;
+}
+
+.card {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  text-align: center;
+  padding: 1rem 0;
+  overflow: hidden;
+  width: 28%;
+}
+
+.chrome-browser{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.firefox-browser{
+  position: absolute;
+  top:50px;
+  left: 34%;
+}
+
+.opera-browser{
+  position: absolute;
+  top:100px;
+  left: 68%;
+}
+
+.browser-version{
+  color: hsl(229, 8%, 60%);
+  font-weight: 400;
+}
+
+.browser-version::after{
+  content: "";
+  display: block;
+  margin-top: 10%;
+  height: 5px;
+  background: url("../images/bg-dots.svg") no-repeat;
+  width:300px;
+}
+
+.add-btn{
+  border: none;
+  border-radius: 5px;
+  background-color:  hsl(231, 69%, 60%);
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  padding: 5% 10%;
+}
+
+.add-btn:hover{
+  border: 1px solid hsl(231, 69%, 60%);
+  background-color:  #fff;
+  color: hsl(231, 69%, 60%);
+  cursor: pointer;
+}
