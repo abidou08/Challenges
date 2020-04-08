@@ -1,0 +1,43 @@
+#feedback{
+  margin: 3% 0;
+}
+
+.feedback-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+}
+
+.profile-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-title{
+  color: hsl(228, 39%, 23%);
+  font-size: 2rem;
+}
+
+.profile-card{
+  background-color: hsl(0, 0%, 98%);
+  flex-basis: 24%;
+  height: 200px;
+  text-align: center;
+}
+
+.avatar-img{
+  position: relative;
+  display: inline-block;
+  top: -40px;
+  width: 80px;
+}
+
+.profile-card h4{
+  color: hsl(228, 39%, 23%);
+}
+
+.profile-card p{
+  color: hsl(227, 12%, 61%);
+}

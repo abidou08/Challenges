@@ -1,0 +1,107 @@
+#footer{
+  background-color: hsl(233, 12%, 13%);
+  padding: 3% 0;
+}
+
+.footer-div{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2,30%);
+  grid-gap: 80px 50px;
+  grid-template-areas: "logo link1 link2 contact"
+                       "social link1 link2 copyright";
+  justify-content: start;
+  margin: 3% 5%;
+}
+
+.footer-logo{
+  grid-area: logo;
+  color: #fff;
+}
+
+.footer-logo-path{
+  fill: #fff;
+}
+
+.social-icons-div{
+  grid-area: social;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons:hover>path{
+  fill: hsl(12, 88%, 59%);
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0;
+  padding-left: 0;
+  list-style-type: none;
+  justify-self: center;
+}
+
+.links-01{
+  grid-area: link1;
+}
+
+.links-02{
+  grid-area: link2;
+}
+
+.footer-links a{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.footer-links a:hover{
+  color: hsl(12, 88%, 59%);
+}
+
+.subscription{
+  grid-area: contact;
+}
+
+.copyright{
+  color: hsl(227, 12%, 61%);
+  font-size: 13px;
+  grid-area: copyright;
+  justify-self: end;
+}
+
+.subscription{
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-input{
+  font-family: 'Be Vietnam', sans-serif;
+  border: none;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.email-input.error{
+  border: 2px solid hsl(12, 88%, 59%);
+  color: hsl(12, 88%, 59%);
+}
+
+.go-btn{
+  border: none;
+  border-radius: 25px;
+  background-color: hsl(12, 88%, 59%);
+  color: #fff;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 700;
+  margin-left: 3%;
+  width: 70px;
+}
+
+.go-btn:hover{
+  cursor: pointer;
+  background-color: hsla(12, 88%, 59%, 0.7);
+}

@@ -1,0 +1,20 @@
+#intro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 5%;
+}
+
+.intro-title{
+  color: hsl(228, 39%, 23%);
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-top: 0;
+  width: 70%;
+}
+
+.intro-paragraph{
+  color: hsl(227, 12%, 61%);
+  margin-bottom: 5%;
+  width: 55%;
+}
