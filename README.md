@@ -29,4 +29,4 @@ Thanks for coming here, as you can see in this repository all my practice projec
 * [Intro component with sign-up form](https://abidou08.github.io/challenges/Intro%20component%20with%20sign-up%20form/index.html)
 * [Pricing component with toggle](https://abidou08.github.io/challenges/Pricing%20component%20with%20toggle/index.html)
 * [Bookmark landing page](https://abidou08.github.io/challenges/Bookmark%20landing%20page/index.html)
-
+* [Manage landing page](https://abidou08.github.io/challenges/Manage%20landing%20page/index.html)
