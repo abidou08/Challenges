@@ -22,6 +22,7 @@ Thanks for coming here, as you can see in this repository all my practice projec
 * [Fylo dark theme landing page](https://abidou08.github.io/challenges/Fylo%20dark%20theme%20landing%20page/index.html)
 * [Clipboard landing page](https://abidou08.github.io/challenges/Clipboard%20landing%20page/index.html)
 * [Insure landing page](https://abidou08.github.io/challenges/Insure%20landing%20page/index.html)
+* [Fylo data storage component](https://abidou08.github.io/challenges/Fylo%20data%20storage%20component/index.html)
 
 **Live Preview My Solutions (HTML+CSS+JS):**
 * [Base Apparel coming soon page](https://abidou08.github.io/challenges/Base%20Apparel%20coming%20soon%20page/index.html)
