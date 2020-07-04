@@ -1,0 +1,249 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* REPEATED PROPERTY */
+.container, .main_content, .right_content, .testimonial, .reviewer_div, .info{
+    display: flex;
+}
+
+.container, .testimonial, .reviewer_div, .share_icon_container{
+    align-items: center;
+}
+
+.right_content, .info{
+    flex-direction: column;
+}
+
+.left_content, .img_drawers {
+    height: 100%;
+}
+
+.testimonial, .share_icon_container, .right_content{
+    justify-content: space-between;
+}
+
+.left_content, .img_drawers{
+    border-radius: 10px 0 0 10px;
+}
+
+.img_avatar, .btn_share{
+    border-radius: 50%;
+}
+
+.title, .description{
+    margin: 0;
+}
+
+
+/* GENERAL PART */
+.container{
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 95%;
+    max-width: 1440px;
+}
+
+.main_content{
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    height: 250px;
+    width: 800px;
+    max-width: 90%;
+}
+
+
+/* LEFT SIDE PART */
+.left_content{
+    width: 40%;
+}
+
+.img_drawers{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* RIGHT SIDE PART */
+.right_content{
+    border-radius: 0px 10px 10px 0px;
+    color: hsl(217, 19%, 35%);
+    max-height: 100%;
+    padding: 25px;
+    width: 60%;
+}
+
+.title{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.description{
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.info{
+    margin-left: 15px;
+}
+
+.img_avatar{
+    height: 50px;
+    width: 50px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.date{
+    font-size: 14px;
+}
+
+.btn_share{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    width: 30px;
+}
+
+.btn_share.bluebg{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.share_icon_container{
+    background-color: hsl(217, 19%, 35%);
+    display: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    position: absolute;
+    top: 40%;
+    right: -80px;
+    width: 180px;
+}
+
+.share_icon_container.show{
+    display: flex;
+}
+
+.share_icon_container::after{
+    background-color: inherit;
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 40px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(50% 100%, 10% 0, 90% 0);;
+}
+
+.share_txt{
+    color: hsl(212, 23%, 69%);
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.social_link{
+    line-height: 0;
+}
+
+.arrow.white{
+    fill: #fff;
+ }
+
+.share_icon_container .btn_share{
+    display: none;
+}
+
+.testimonial{
+    height: 50px;
+}
+
+.attribution{
+    text-align: center;
+}
+
+
+@media screen and (max-width:820px){
+    .main_content{
+        flex-direction: column;
+        height: 80vh;
+        width: 90%;
+    }
+
+    .left_content{
+        background-color: red;
+        height: 40%;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+    }
+
+    .img_drawers{
+        border-radius: 10px 10px 0 0;
+    }
+
+    .right_content{
+        border-radius: 0 0 10px 10px;
+        height: 60%;
+        width: calc(100% - 50px);
+    }
+
+    .title{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .description{
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .share_icon_container{
+        display: none;
+        top: auto;
+        bottom: 0;
+        border-radius: 0 0 10px 10px;
+        left: 0;
+        width: calc(100% - 60px);
+    }
+
+    .share_icon_container::after{
+        display: none;
+    }
+
+    .share_txt{
+        font-size: 0.8rem;
+    }
+
+    .reviewer_div.hide{
+        display: none;
+    } 
+    
+    .share_div.hide{
+        display: none;
+    }
+
+    .share_icon_container .btn_share{
+        background-color:  hsl(214, 17%, 51%);
+        display: block;
+    }
+
+    .share_icon_container .arrow{
+        fill: #fff;
+    }
+
+    .attribution{
+        font-size: 0.8rem;
+    }
+    
+}
