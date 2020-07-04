@@ -32,3 +32,4 @@ Thanks for coming here, as you can see in this repository all my practice projec
 * [Bookmark landing page](https://abidou08.github.io/challenges/Bookmark%20landing%20page/index.html)
 * [Manage landing page](https://abidou08.github.io/challenges/Manage%20landing%20page/index.html)
 * [Rock, Paper, Scissors game](https://abidou08.github.io/challenges/Rock,%20Paper,%20Scissors%20game/index.html)
+* [Article preview component](https://abidou08.github.io/challenges/Article%20preview%20component/index.html)
