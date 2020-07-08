@@ -33,3 +33,4 @@ Thanks for coming here, as you can see in this repository all my practice projec
 * [Manage landing page](https://abidou08.github.io/challenges/Manage%20landing%20page/index.html)
 * [Rock, Paper, Scissors game](https://abidou08.github.io/challenges/Rock,%20Paper,%20Scissors%20game/index.html)
 * [Article preview component](https://abidou08.github.io/challenges/Article%20preview%20component/index.html)
+* [Social media dashboard with theme switcher](https://abidou08.github.io/challenges/Social%20media%20dashboard%20with%20theme%20switcher/index.html)
