@@ -1,0 +1,346 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.body_bg{
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+.top_bg{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 100%;
+    z-index: -1;
+}
+
+.container{
+    margin: 2% auto;
+    min-height: 100vh;
+    width: 90%;
+    max-width: 1440px;
+}
+
+/* HEADER SECTION */
+header, .switch_mode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    color: hsl(230, 17%, 14%);
+    font-size: 1.7rem;
+}
+
+.total_followers, .mode_name{
+    color: hsl(228, 12%, 44%);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.mode_name{
+    text-transform: capitalize;
+}
+
+.switch_bar{
+    background-color: hsl(230, 22%, 74%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 15px;
+    padding: 0 5px;
+    height: 30px;
+    width: 55px;
+}
+
+.switch_btn{
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    outline: none;
+}
+
+.switch_bar:hover{
+    background:linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+/* FOLLOWERS CARD SECTION */
+.followers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% auto 8%;
+}
+
+.card{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(230px - 3px);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.card:hover{
+    background-color: hsl(227, 47%, 96%);
+    cursor: pointer;
+}
+
+.bg_card{
+    border-radius: 5px;
+    height: 230px;
+    width: 23%;
+    position: relative;
+}
+
+.bg_fb{
+    background-color: hsl(208, 92%, 53%);
+}
+
+.bg_twitter{
+    background-color: hsl(203, 89%, 53%);
+}
+
+.bg_ig{
+    background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+
+.bg_youtube{
+    background-color: hsl(348, 97%, 39%);
+}   
+
+.card_top, .card_middle, .card_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_middle{
+    flex-direction: column;
+}
+
+.number{
+    font-size: 4rem;
+}
+
+.count{
+    color: hsl(228, 12%, 44%);
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.username{
+    color: hsl(228, 12%, 44%);
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.change{
+    color: hsl(163, 72%, 41%);
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 3px;
+    text-transform: capitalize;
+}
+
+.change_down{
+    color: hsl(356, 69%, 56%);
+}
+
+/* OVERVIEW SECTION */
+.overview_title{
+    color: hsl(228, 12%, 44%);
+    font-size: 1.6rem;
+    margin-bottom: 5%;
+}
+
+.overview_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.overview_card{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: inherit;
+    padding: 25px;
+    margin: 0 0 2%;
+    height: 150px;
+    width: 19%;
+}
+
+.overview_card:hover{
+    background-color: hsl(227, 47%, 96%);
+    cursor: pointer;
+}
+
+.overview_card_top, .overview_card_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action_type{
+    color: hsl(228, 12%, 44%);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+h2{
+    color: hsl(230, 17%, 14%);
+    font-size: 2.2rem;
+}
+
+.attribution{
+    text-align: center;
+}
+
+
+/* MEDIUM SCREEN VIEW */
+@media screen and (max-width: 1024px){
+    .overview_wrapper{
+        flex-wrap: wrap;
+    }
+
+    .overview_card{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .followers{
+        flex-wrap: wrap;
+    }
+
+    .bg_card{
+        width: 48%;
+        margin-bottom: 15px ;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .bg_card{
+        width: 100%;
+        margin-bottom: 15px ;
+    }
+
+    .overview_card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    header{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .logo, .switch_mode{
+        height : 50px;
+        width: 100%;
+    }
+    
+    .logo{
+        border-bottom: 1px solid hsl(230, 22%, 74%);
+        padding-bottom: 5%;
+    }
+
+    .title{
+        font-size: 1.4rem;
+    }
+
+    .switch_mode{
+        padding-top: 2%;
+    }
+}
+
+
+/* DARK MODE VIEW*/
+.body_bg.dark{
+    background-color: hsl(230, 17%, 14%);
+}
+
+.top_bg.dark{
+    background-color: hsl(232, 19%, 15%);
+}
+
+    /* HEADER SECTION */
+.title.dark{
+    color: hsl(0, 0%, 100%);
+}
+
+.switch_btn.dark{
+    background-color: hsl(230, 17%, 14%);
+}
+
+.switch_bar.dark{
+    background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    justify-content: flex-start;
+}
+
+.total_followers.dark, .mode_name.dark{
+    color: hsl(228, 34%, 66%);
+}
+
+    /* FOLLOWERS SECTION */
+.number.dark{
+    color: hsl(0, 0%, 100%);
+}
+
+.count.dark{
+    color: hsl(228, 34%, 66%);
+}
+
+.username.dark{
+    color: hsl(228, 34%, 66%);
+}
+
+.card.dark{
+    background-color: hsl(228, 28%, 20%);
+}
+
+    /* OVERVIEW SECTION */
+.overview_title.dark{
+    color: hsl(0, 0%, 100%);
+}
+
+.overview_card.dark{
+    background-color: hsl(228, 28%, 20%);
+}
+
+.action_type.dark{
+    color: hsl(228, 34%, 66%);
+}
+
+h2.dark{
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution.dark{
+    color: #fff;
+}
